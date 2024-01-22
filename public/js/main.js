@@ -21,7 +21,7 @@ lesButtons.forEach((element) => {
         try {
           resultat.value = eval(calcule); //! Eval() => prend toute la chaine de caractère et l'excecute, exemple "2+5-150" , 'resultat.value' prend le résultat de eval()
         } catch (error) {
-          resultat.value = "Error";
+                resultat.value = ""
         }
         calcule = resultat.value; //! 'Calcule est remplacer avec le 'Value' du resultat et break
         break;
