@@ -1,37 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./public/css/app.css">
     <title>Calculatrice</title>
 </head>
+
 <body>
+    <video id="background-video" autoplay muted loop>
+        <source src="./public/src/video/mylivewallpapers-com-Matrix-EDIT.mp4" type="video/mp4">
+    </video>
     <section class="container">
-        <div class="calcule"></div>
-        <input type="text" value="">
+        <input type="text" value="Bienvenue">
         <div class="operateurNombres">
-            <button class="buttonCalculatrice bgTurquoise" id="btn">C</button>
-            <button class="buttonCalculatrice bgTurquoise" id="btn">( )</button>
-            <button class="buttonCalculatrice bgTurquoise" id="btn">%</button>
-            <button class="buttonCalculatrice" id="btn">/</button>
+            <button class="buttonCalculatrice bgVert" id="btn">C</button>
+            <button class="buttonCalculatrice bgVert" id="btn">/</button>
+            <button class="buttonCalculatrice bgVert" id="btn">%</button>
+            <button class="buttonCalculatrice" id="btn"></button>
             <button class="buttonCalculatrice" id="btn">7</button>
             <button class="buttonCalculatrice" id="btn">8</button>
             <button class="buttonCalculatrice" id="btn">9</button>
-            <button class="buttonCalculatrice bgTurquoise" id="btn">x</button>
+            <button class="buttonCalculatrice bgVert" id="btn">x</button>
             <button class="buttonCalculatrice" id="btn">4</button>
             <button class="buttonCalculatrice" id="btn">5</button>
             <button class="buttonCalculatrice" id="btn">6</button>
-            <button class="buttonCalculatrice bgTurquoise" id="btn">-</button>
+            <button class="buttonCalculatrice bgVert" id="btn">-</button>
             <button class="buttonCalculatrice" id="btn">1</button>
             <button class="buttonCalculatrice" id="btn">2</button>
             <button class="buttonCalculatrice" id="btn">3</button>
-            <button class="buttonCalculatrice bgTurquoise" id="btn">+</button>
+            <button class="buttonCalculatrice bgVert" id="btn">+</button>
             <button class="buttonCalculatrice buttonLarge" id="btn">0</button>
             <button class="buttonCalculatrice" id="btn">.</button>
-            <button class="buttonCalculatrice bgTurquoise" id="btn">=</button>
+            <button class="buttonCalculatrice bgVert" id="btn">=</button>
         </div>
     </section>
     <script src="./public/js/main.js"></script>
 </body>
+
 </html>
